@@ -1,0 +1,49 @@
+{
+  "tests": [
+    {
+      "name": "Prueba compilación",
+      "run": "mvn -Dtest=PathFinderTest#start test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Prueba DFS",
+      "run": "mvn -Dtest=PathFinderTest#regularDFS test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Prueba espacio explorado DFS",
+      "run": "mvn -Dtest=PathFinderTest#closedSetDFS test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Prueba regular BFS",
+      "run": "mvn -Dtest=PathFinderTest#regularBFS test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Prueba espacio explorado BFS",
+      "run": "mvn -Dtest=PathFinderTest#closedSetBFS test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    }
+  ]
+}
